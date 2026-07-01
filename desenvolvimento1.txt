@@ -1,0 +1,21 @@
+Por que não daria para fazer apenas com HTML e CSS?
+
+O HTML serve para estruturar a página e o CSS para estilizar.
+O CSS até consegue criar pequenas interações, como abrir um menu ao passar o mouse , mas ele 
+não consegue mudar o estado lógico ou o conteúdo complexo da página sem recarregá-la.
+
+No caso do botão "Documentos", o uso de JavaScript é essencial pelos seguintes comportamentos:
+
+Manipulação Dinâmica do DOM (Mudança de Interface): Ao clicar em "Documentos", a caixa de texto 
+atual (onde você digita) precisa sumir instantaneamente para dar lugar a uma área de upload de 
+arquivos (PDF, DOCX, etc.). O JavaScript faz essa troca de elementos na tela em tempo real, sem 
+que o usuário precise esperar a página inteira recarregar.
+
+Gerenciamento de Estado: O sistema precisa "saber" qual modo está ativo para modificar o comportamento 
+de outras partes da tela, como os botões de seleção de 
+idioma e as ferramentas de entrada.
+
+Processamento e Envio de Arquivos (API de Upload): Quando você arrasta ou seleciona um documento,
+o JavaScript intercepta esse arquivo, valida o formato/tamanho e o envia para os servidores do 
+Google em segundo plano (via AJAX/Fetch API), exibindo uma barra de progresso ou o resultado da 
+tradução na mesma tela.
