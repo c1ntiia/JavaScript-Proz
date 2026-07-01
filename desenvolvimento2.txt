@@ -1,0 +1,8 @@
+Prettier - Code Formatter
+
+O Prettier é um formatador de código opinativo. Ele analisa todo o seu arquivo (HTML, CSS ou JavaScript) e o reformata do zero, seguindo as melhores práticas do mercado. Ele corrige automaticamente recuos, quebras de linha longas, adiciona ou remove espaços em branco e padroniza o uso de aspas e ponto e vírgula.
+
+Escolhi o Prettier porque ele resolve um dos maiores problemas de quem está aprendendo a programar: manter o código limpo, organizado e legível.
+Foco no que importa: Em vez de perder tempo organizando visualmente as tags HTML fechadas erradas ou alinhando as propriedades do CSS, você apenas digita o código e deixa que a extensão organize tudo sozinha.
+Automação ao Salvar: Ela pode ser configurada para formatar o arquivo automaticamente toda vez que você aperta Ctrl + S. O código "mágico" se alinha instantaneamente.
+Evita Erros Visuais: Um código mal indentado é a maior causa de bugs bobos. Com o Prettier mantendo tudo idêntico e limpo, fica muito mais fácil bater o olho e encontrar erros de estrutura.
